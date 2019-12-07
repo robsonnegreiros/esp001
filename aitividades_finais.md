@@ -8,23 +8,19 @@ https://t.me/joinchat/AuLXyxbJGMJBJ55sh5lztg
 
 **OBS: Considere para todos os ambientes um ambiente composto de: Proxy, Frontend, Backend e DB**
 
+Cada equipe será composta de 3 pessoas
+
 * Monitoramento de ambiente de VMs e containers com Prometheus + Grafana
-3
 
 * Comparações práticas de performance e gestão entre GlusterFS e CEPH
-3
 
 * Monitoração de containers e VMs com indexação de logs com EFK
-3
 
 * Provisionamento de VMs e containers usando Vagrant
-3
 
 * Monitoramento de Aplicações com Elastic APM e Elasticsearch
-3
 
 * Comparações práticas na Gestão de configuração entre Puppet, Chef e Ansible
-3
 
 ## Forma de entrega
 
