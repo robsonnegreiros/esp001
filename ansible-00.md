@@ -31,7 +31,7 @@ host_key_checking = False
 ```bash
 # mv /etc/ansible/hosts /etc/ansible/hosts.back
 
-# vi /etc/ansible/hosts
+# vi /etc/ansible/inventario
 192.168.56.111
 
 [grupo_servidores]

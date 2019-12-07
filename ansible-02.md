@@ -29,5 +29,5 @@
 ```
 
 ```bash
-# ansible -i /etc/ansible/inventario -m shell -a "/bin/systemctl status httpd | head -3" - 
+# ansible -i /etc/ansible/inventario -m shell -a "/bin/systemctl status httpd | head -3" grupo_servidores
 ```
