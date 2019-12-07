@@ -23,7 +23,7 @@
 ```
 
 ```yaml
-- hosts: target_servers
+- hosts: grupo_servidores
 
   tasks:
 
@@ -35,7 +35,7 @@
 * Executar o playbook
 
 ```bash
-# ansible-playbook -i /etc/ansible/inventario playbook_simples.yml
+# ansible-playbook -i /etc/ansible/inventario playbook_simples.yml grupo_servidores
 
-# ansible -i /etc/ansible/inventario -m command -a "ls -l /tmp"
+# ansible -i /etc/ansible/inventario -m command -a "ls -l /tmp" 192.168.56.11
 ```

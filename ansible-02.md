@@ -9,7 +9,7 @@
 ```
 
 ```yaml
-- hosts: target_servers
+- hosts: grupo_servidores
 
   become: yes
 
@@ -29,5 +29,5 @@
 ```
 
 ```bash
-# ansible -i /etc/ansible/inventario -m shell -a "/bin/systemctl status httpd | head -3" -
+# ansible -i /etc/ansible/inventario -m shell -a "/bin/systemctl status httpd | head -3" - 
 ```

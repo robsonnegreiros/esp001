@@ -16,7 +16,7 @@
 # yum --enablerepo=epel -y install ansible openssh-clients
 ```
 
-* Parâmetros para clientes (Entender os imapcots)
+* Parâmetros para clientes (Entender os impactos)
 
 ```bash
 # vi /etc/ansible/ansible.cfg
@@ -29,7 +29,7 @@ host_key_checking = False
 * Configurar o inventário
 
 ```bash
-# mv /etc/ansible/hosts /etc/ansible/hosts.org
+# mv /etc/ansible/hosts /etc/ansible/hosts.back
 
 # vi /etc/ansible/hosts
 192.168.56.111
@@ -48,5 +48,5 @@ host_key_checking = False
 * Exibe hosts específicos
 
 ```bash
-# ansible target_servers --list-hosts
+# ansible grupo_servidores --list-hosts
 ```
