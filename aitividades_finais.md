@@ -1,5 +1,9 @@
 # Atividades Finais
 
+## Link do grupo
+
+https://t.me/joinchat/AuLXyxbJGMJBJ55sh5lztg
+
 ## Tópicos
 
 **OBS: Considere para todos os ambientes um ambiente composto de: Proxy, Frontend, Backend e DB**
